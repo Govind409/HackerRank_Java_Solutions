@@ -55,7 +55,7 @@ class Library extends Transactions implements LibraryOperations {
                 return book;
             }
         }
-        return null; // Book not found
+        return null;
     }
 
     public Member findMemberById(String memberId) {
